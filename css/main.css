@@ -1,0 +1,458 @@
+/* 字體 */
+*{
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* 覆蓋 Bootstrap 5 */
+:root{
+    --bs-primary-rgb: 17, 50, 86;
+    --bs-secondary-rgb: 163, 206, 241;
+    --bs-success-rgb: 25, 135, 84;
+    --bs-info-rgb: 230, 236, 239;
+    --bs-warning-rgb: 255, 193, 7;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 248, 249, 250;
+    --bs-dark-rgb: 33, 37, 41;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+    --bs-body-color-rgb: 33, 37, 41;
+    --bs-body-bg-rgb: 255, 255, 255;
+    --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+    --bs-body-font-family: Muli, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+    --bs-body-font-size: 1rem;
+    --bs-body-font-weight: 400;
+    --bs-body-line-height: 1.5;
+    --bs-body-color: #212529;
+    --bs-body-bg: #fff;
+}
+
+/* 導覽列 CSS */
+#navigation {
+    padding: 4px 0px;
+}
+#navigation .navbar-brand {
+    display: flex;
+    margin-left: 20px;
+    font-size: 22px;
+    color: rgb(230, 236, 239);
+}
+.navbar-toggler{
+    margin-right: 10px;
+    background-color: transparent;
+    border: 2px solid rgba(230, 236, 239, 0.2);
+    border-radius: 8px;
+    transition: 0.3s;
+    display: flex;
+    justify-content: center;
+}
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 2px 2px rgba(230, 236, 239, 0.8);
+    color: rgba(230, 236, 239, 0.8);
+}
+.navbar-toggler-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 14px;
+    height: 28px;
+    vertical-align: middle;
+    background: none;
+    color: rgba(230, 236, 239, 0.4);
+}
+.navbar-nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 22px;
+    margin-bottom: 0;
+    list-style: none;
+}
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(230, 236, 239);
+    transition: 0.5s;
+}
+.navbar-nav .nav-link:hover {
+    color: rgba(107, 166, 206, 0.8);
+}
+.navbar-nav .nav-link.active {
+    font-weight: 700;
+    font-size: 18px;
+    color: rgba(107, 166, 206, 0.8);
+}
+
+@media screen and (min-width: 992px) {
+    #navigation {
+      padding-left: 0;
+      padding-right: 0;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      display: flex;
+      flex-direction: column;
+      width: 320px;
+      height: 100vh;
+    }
+    #navigation .navbar-brand {
+      display: flex;
+      margin: auto auto 0;
+      padding: 10px;
+    }
+    #navigation .navbar-brand .img-profile {
+      max-width: 180px;
+      max-height: 180px;
+      border: 7px solid rgba(255, 255, 255, 0.3);
+      filter: brightness(105%) contrast(105%) saturate(85%);
+    }
+    #navigation .navbar-collapse {
+      display: flex;
+      align-items: center;
+      flex-grow: 0;
+      width: 100%;
+      margin-bottom: auto;
+    }
+    #navigation .navbar-collapse .navbar-nav {
+      flex-direction: column;
+      align-items: center;
+      padding-left: 0;
+      width: 100%;
+    }
+    #navigation .navbar-collapse .navbar-nav .nav-item {
+      display: block;
+      margin: 5px 0;
+    }
+    #navigation .navbar-collapse .navbar-nav .nav-item .nav-link {
+      display: block;
+      font-size: 20px;
+      color: rgb(230, 236, 239);
+    }
+    #navigation .navbar-collapse .navbar-nav .nav-item .nav-link:hover {
+        color: rgba(107, 166, 206, 0.8);
+    }
+    #navigation .navbar-collapse .navbar-nav .nav-item .nav-link.active {
+        font-weight: 700;
+        font-size: 26px;
+        color: rgba(107, 166, 206, 0.8);
+        /* text-decoration: underline; */
+    }
+}
+
+/* 主要內容 CSS */
+#portrait{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+#portrait img{
+    max-width: 220px;
+    max-height: 220px;
+    border: 7px solid rgb(81, 126, 173);
+    filter: brightness(105%) contrast(105%) saturate(85%);
+    margin: 0 auto;
+}
+section.resume-section {
+    display: flex;
+    padding: 20px 20px 50px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-title{
+    position: relative;
+    padding-bottom: 10px;
+}
+.section-title::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 50px;
+    height: 3px;
+    background: rgba(107, 166, 206, 0.8);
+    bottom: 0;
+    left: 0;
+}
+section.resume-section .resume-section-content {
+    max-width: 1200px;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    section.resume-section {
+        
+        padding: 50px 100px 50px 100px;
+    }
+}
+@media screen and (min-width: 992px) {
+    
+    section.resume-section {
+        margin-left: 320px;
+        padding-top: 50px;
+        /* padding-right: 150px; */
+    }
+}
+
+/********************* About 自我介紹 *********************/
+#jumbotron{
+    align-items: center;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    min-height: 100vh;
+}
+#jumbotron .resume-section-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Title name */
+#jumbotron .resume-section-content h1{
+    font-size: calc(20px + 5.7vw);
+    font-weight: 700;
+    line-height: 50px;
+    z-index: 300;
+    color: rgb(88, 90, 86);
+    margin-top: 50px;
+}
+#jumbotron .resume-section-content h1 span{
+    color: rgb(31, 85, 143);
+}
+/* Email */
+#jumbotron .resume-section-content .subheading {
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 0px;
+    padding-top: calc(5px + 1vw);
+    color: rgb(88, 90, 86);
+}
+/* Description */
+#jumbotron .resume-section-content .lead {
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(88, 90, 86);
+    text-align: justify;
+}
+@media screen and (min-width: 768px) {
+    #jumbotron{
+        background-size: cover;
+        background-attachment: fixed;
+        margin-top: 0px;
+    }
+    #jumbotron .resume-section-content{
+        align-items: start;
+    }
+    /* Title name */
+    #jumbotron .resume-section-content h1{
+        font-size: calc(20px + 5.7vw);
+        font-weight: 700;
+        line-height: 80px;
+        z-index: 300;
+        margin-top: 100px;
+        color: white;
+    }
+    #jumbotron .resume-section-content h1 span{
+        color: rgb(163, 206, 241);
+    }
+    /* Email */
+    #jumbotron .resume-section-content .subheading {
+        font-weight: 400;
+        font-size: 18px;
+        padding-left: calc(0.9vw);
+        color: white;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+    }
+    /* Description */
+    #jumbotron .resume-section-content .lead {
+        width: 50%;
+        font-size: 16px;
+        font-weight: 400;
+        padding-left: 10px;
+        color: white;
+        text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.8);
+        text-align: justify;
+        margin-top: 0px;
+    }
+}
+
+/* About 照片 */
+#about .resume-section-content p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+#about .resume-section-content img{
+    max-width: 300px;
+    filter: brightness(110%) contrast(90%);
+    margin-bottom: 10px;
+}
+
+
+/* About Bio-info */
+#about .resume-section-content .about-info{
+    padding-left: 0px;
+}
+#about .resume-section-content .about-info .list-title{
+    font-size: 20px;
+    border-bottom: 1px solid rgb(102, 167, 199);
+}
+#about .resume-section-content .about-info .list-title strong{
+    padding-left: 5px;
+}
+#about .resume-section-content .about-info .list-item{
+    font-size: 16px;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .resume-section-content .about-info .list-item strong{
+    font-weight: 700;
+}
+#about .resume-section-content .about-info .list-item span{
+    right: 0px;
+    padding-left: 5px;
+}
+
+/* About Language */
+#about .resume-section-content .language-list{
+    padding-left: 0px;
+}
+#about .resume-section-content .language-list .list-title{
+    font-size: 20px;
+    border-bottom: 1px solid rgb(102, 167, 199);
+}
+#about .resume-section-content .language-list .list-title strong{
+    padding-left: 5px;
+}
+#about .resume-section-content .language-list .list-item{
+    font-size: 16px;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .resume-section-content .language-list .list-item strong{
+    font-weight: 700;
+}
+#about .resume-section-content .language-list .list-item span{
+    right: 0px;
+    padding-left: 5px;
+}
+/* About Sport */
+#about .resume-section-content .sport-list{
+    padding-left: 0px;
+}
+#about .resume-section-content .sport-list .list-title{
+    font-size: 20px;
+    border-bottom: 1px solid rgb(102, 167, 199);
+}
+#about .resume-section-content .sport-list .list-title strong{
+    padding-left: 5px;
+}
+@media screen and (min-width: 768px){
+    #about .resume-section-content .sport-list .list-title{
+        margin-top: 20px;
+    }
+}
+#about .resume-section-content .sport-list .list-item{
+    font-size: 16px;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .resume-section-content .sport-list .list-item strong{
+    font-weight: 700;
+}
+#about .resume-section-content .sport-list .list-item span{
+    right: 0px;
+    padding-left: 5px;
+} */
+
+/* About Hobby */
+#about .resume-section-content .hobby-list{
+    padding-left: 0;
+}
+#about .resume-section-content .hobby-list .list-title{
+    font-size: 20px;
+    border-bottom: 1px solid rgb(102, 167, 199);
+}
+#about .resume-section-content .hobby-list .list-title strong{
+    padding-left: 5px;
+}
+@media screen and (min-width: 768px){
+    #about .resume-section-content .hobby-list .list-title{
+        margin-top: 20px;
+    }
+}
+#about .resume-section-content .hobby-list .list-item{
+    font-size: 16px;
+    list-style: none;
+    padding-top: 10px;
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#about .resume-section-content .hobby-list .list-item strong{
+    font-weight: 700;
+}
+#about .resume-section-content .hobby-list .list-item span{
+    right: 0px;
+    padding-left: 5px;
+}
+
+/* Education */
+#education .school-logo{
+    max-width: 130px;
+    max-height: 130px;
+}
+#education .uni-name{
+    font-size: 22px;
+    /* text-align: center; */
+    font-weight: 700;
+}
+#education .subheading{
+    font-size: 16px;
+    font-style: italic;
+    padding: 5px 5px;
+}
+#education .department{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+#education .thesis{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+#education .thesis a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.5s;
+}
+#education .thesis a:hover{
+    transform: translate(1px, -1px);
+    color: rgba(107, 166, 206, 0.8);
+}
+#education .note{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+#education .note .note-detail{
+    font-size: 14px;
+    color: #666;
+}
+#education .edu-time{
+    text-align: right;
+    font-weight: 700;
+}
