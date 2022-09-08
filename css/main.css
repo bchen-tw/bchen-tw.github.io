@@ -205,7 +205,6 @@ section.resume-section .resume-section-content {
     margin-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
-    min-height: 100vh;
 }
 #jumbotron .resume-section-content{
     display: flex;
@@ -245,6 +244,7 @@ section.resume-section .resume-section-content {
         background-size: cover;
         background-attachment: fixed;
         margin-top: 0px;
+        min-height: 100vh;
     }
     #jumbotron .resume-section-content{
         align-items: start;
@@ -412,6 +412,74 @@ section.resume-section .resume-section-content {
     padding-left: 5px;
 }
 
+/* Experience */
+#experience .school-logo{
+    max-width: 130px;
+    max-height: 130px;
+}
+#experience .uni-name{
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
+}
+#experience .subheading{
+    font-size: 16px;
+    font-style: italic;
+    padding: 5px 5px;
+}
+#experience .department{
+    font-size: 16px;
+    padding: 5px 5px;
+}
+#experience .professor{
+    font-size: 16px;
+    padding: 10px 5px 5px 5px;
+}
+#experience .edu-time{
+    text-align: right;
+    font-weight: 700;
+}
+#experience .projects h5{
+    font-size: 16px;
+    font-weight: 700;
+    padding: 5px 5px;
+}
+#experience .projects .project-list{
+    list-style: none;
+}
+#experience .projects .project-list .project-item{
+    padding-bottom: 5px;
+}
+
+@media screen and (min-width: 768px){
+    #experience .exp-info{
+        margin-left: 4vw;
+    }
+    #experience .school-logo{
+        max-width: 110px;
+        max-height: 110px;
+    }
+    #experience .uni-name{
+        text-align: start;
+    }
+}
+@media screen and (min-width:992px){
+    #experience .school-logo{
+        max-width: 130px;
+        max-height: 130px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Education */
 #education .school-logo{
     max-width: 130px;
@@ -431,18 +499,18 @@ section.resume-section .resume-section-content {
     font-size: 16px;
     padding: 5px 5px;
 }
+#education .advisor{
+    font-size: 16px;
+    padding: 10px 5px 5px 5px;
+}
 #education .thesis{
     font-size: 16px;
     padding: 5px 5px;
 }
 #education .thesis a{
     text-decoration: none;
-    color: #000;
-    transition: 0.5s;
-}
-#education .thesis a:hover{
-    transform: translate(1px, -1px);
-    color: rgba(107, 166, 206, 0.8);
+    color: rgba(107, 166, 206, 1);;
+    transition: 0.3s;
 }
 #education .note{
     font-size: 16px;
@@ -455,4 +523,21 @@ section.resume-section .resume-section-content {
 #education .edu-time{
     text-align: right;
     font-weight: 700;
+}
+@media screen and (min-width: 768px){
+    #education .edu-info{
+        margin-left: 4vw;
+        /* padding-left: 1vw; */
+        /* border-left: 1px solid rgba(200, 205, 207, 0.8); */
+    }
+    #education .school-logo{
+        max-width: 110px;
+        max-height: 110px;
+    }
+}
+@media screen and (min-width:992px){
+    #education .school-logo{
+        max-width: 130px;
+        max-height: 130px;
+    }
 }
