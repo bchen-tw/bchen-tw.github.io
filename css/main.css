@@ -450,6 +450,10 @@ section.resume-section .resume-section-content {
 #experience .projects .project-list .project-item{
     padding-bottom: 5px;
 }
+#experience .professor a{
+    text-decoration: none;
+    color: rgba(107, 166, 206, 1);
+}
 
 @media screen and (min-width: 768px){
     #experience .exp-info{
@@ -469,16 +473,6 @@ section.resume-section .resume-section-content {
         max-height: 130px;
     }
 }
-
-
-
-
-
-
-
-
-
-
 
 /* Education */
 #education .school-logo{
@@ -502,6 +496,10 @@ section.resume-section .resume-section-content {
 #education .advisor{
     font-size: 16px;
     padding: 10px 5px 5px 5px;
+}
+#education .advisor a{
+    text-decoration: none;
+    color: rgba(107, 166, 206, 1);
 }
 #education .thesis{
     font-size: 16px;
