@@ -539,3 +539,37 @@ section.resume-section .resume-section-content {
         max-height: 130px;
     }
 }
+
+#exp_skill .skill-category h3{
+    font-size: 22px;
+}
+#exp_skill .skill-category .nonlinear-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    padding-left: 0;
+}
+#exp_skill .skill-category .nonlinear-list .nonlinear-item{
+    padding: 15px 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#exp_skill .skill-category .nonlinear-list .nonlinear-item-title{
+    font-size: 14px;
+    margin-top: 10px;
+}
+@media screen and (min-width: 768px){
+    #exp_skill .skill-category .nonlinear-list .nonlinear-item{
+        padding: 15px 30px;
+    }
+    #exp_skill .skill-category .nonlinear-list .nonlinear-item-title{
+        font-size: 16px;
+        margin-top: 10px;
+    }
+}
