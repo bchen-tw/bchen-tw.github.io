@@ -566,10 +566,15 @@ section.resume-section .resume-section-content {
 }
 @media screen and (min-width: 768px){
     #exp_skill .skill-category .nonlinear-list .nonlinear-item{
-        padding: 15px 30px;
+        padding: 15px 50px;
     }
     #exp_skill .skill-category .nonlinear-list .nonlinear-item-title{
         font-size: 16px;
         margin-top: 10px;
+    }
+}
+@media screen and (min-width: 992px){
+    #exp_skill .skill-category .nonlinear-list .nonlinear-item{
+        padding: 15px 30px;
     }
 }
