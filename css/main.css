@@ -559,6 +559,11 @@ section.resume-section .resume-section-content {
     align-items: center;
 }
 
+#exp_skill .skill-category .skill-list .software-logo{
+    max-width: 50px;
+    filter: grayscale(0.1);
+}
+
 #exp_skill .skill-category .skill-list .skill-item-title{
     font-size: 14px;
     margin-top: 10px;
@@ -568,12 +573,18 @@ section.resume-section .resume-section-content {
         padding: 15px 50px;
     }
     #exp_skill .skill-category .skill-list .skill-item-title{
-        font-size: 16px;
+        font-size: 18px;
         margin-top: 10px;
+    }
+    #exp_skill .skill-category .skill-list .software-logo{
+        max-width: 60px;
     }
 }
 @media screen and (min-width: 992px){
     #exp_skill .skill-category .skill-list .skill-item{
         padding: 15px 30px;
+    }
+    #exp_skill .skill-category .skill-list .software-logo{
+        max-width: 70px;
     }
 }

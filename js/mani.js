@@ -4,4 +4,16 @@ window.addEventListener('DOMContentLoaded', event => {
         target: '#navigation'
     })
 
+
+    // Vue
+    const { createApp } = Vue
+
+    const vm1 = createApp({
+        data() {
+            return {
+                papers: paper_data
+            }
+        }
+    }).mount('#publication')
+
 });

@@ -28,6 +28,8 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/mani.js"></script>
         <script src="js/jquery-3.6.1.min.js"></script>
+        <script src="js/vue.global.js"></script>
+        <script src="js/publication.js"></script>
 
         <style>
             @media screen and (min-width: 768px) {
@@ -592,13 +594,71 @@
                     </div>
                     <div class="skill-category mt-4">
                         <h3>
-                            Optics
+                            Optical Solution
                         </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/optical-solution/solution-simulation.png" alt="" class="img-fluid">
+                                <div class="skill-item-title">
+                                    Optical Simulation
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/optical-solution/solution-beam-shaping.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Beam Shaping
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/optical-solution/solution-design.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Optical Design
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                     <div class="skill-category mt-4">
                         <h3>
-                            Software
+                            Software / Programing
                         </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/excel.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Excel
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/powerpoint.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    PowerPoint
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/blender.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Blender
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/solidworks.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Solidworks
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/origin.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Origin Pro
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/matlab.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Matlab
+                                </div>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </section>
@@ -610,6 +670,15 @@
                     <h2 class="mb-5 section-title">
                         Publication List
                     </h2>
+                    <ul>
+                        <li v-for="paper in papers">
+                            <img v-bind:src="paper.img" alt="" style="width: 100px; display: inline-block">
+                            <div class="paper-description" style="display: inline-block">
+                                <strong>Title: </strong>{{paper.title}}<br>
+                                <strong>Author: </strong>{{paper.author}}<br>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </section>
             <hr class="m-0" />
