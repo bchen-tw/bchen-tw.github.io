@@ -525,8 +525,6 @@ section.resume-section .resume-section-content {
 @media screen and (min-width: 768px){
     #education .edu-info{
         margin-left: 4vw;
-        /* padding-left: 1vw; */
-        /* border-left: 1px solid rgba(200, 205, 207, 0.8); */
     }
     #education .school-logo{
         max-width: 110px;
@@ -540,10 +538,11 @@ section.resume-section .resume-section-content {
     }
 }
 
+/* Expertise and Skills */
 #exp_skill .skill-category h3{
     font-size: 22px;
 }
-#exp_skill .skill-category .nonlinear-list{
+#exp_skill .skill-category .skill-list{
     list-style: none;
     display: flex;
     flex-direction: row;
@@ -552,7 +551,7 @@ section.resume-section .resume-section-content {
     flex-wrap: wrap;
     padding-left: 0;
 }
-#exp_skill .skill-category .nonlinear-list .nonlinear-item{
+#exp_skill .skill-category .skill-list .skill-item{
     padding: 15px 10px;
     display: flex;
     flex-direction: column;
@@ -560,21 +559,21 @@ section.resume-section .resume-section-content {
     align-items: center;
 }
 
-#exp_skill .skill-category .nonlinear-list .nonlinear-item-title{
+#exp_skill .skill-category .skill-list .skill-item-title{
     font-size: 14px;
     margin-top: 10px;
 }
 @media screen and (min-width: 768px){
-    #exp_skill .skill-category .nonlinear-list .nonlinear-item{
+    #exp_skill .skill-category .skill-list .skill-item{
         padding: 15px 50px;
     }
-    #exp_skill .skill-category .nonlinear-list .nonlinear-item-title{
+    #exp_skill .skill-category .skill-list .skill-item-title{
         font-size: 16px;
         margin-top: 10px;
     }
 }
 @media screen and (min-width: 992px){
-    #exp_skill .skill-category .nonlinear-list .nonlinear-item{
+    #exp_skill .skill-category .skill-list .skill-item{
         padding: 15px 30px;
     }
 }
