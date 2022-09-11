@@ -81,6 +81,11 @@
                         </a>
                     </li>
                     <li class="nav-item">
+                        <a class="nav-link" href="#awards">
+                            Awards
+                        </a>
+                    </li>
+                    <li class="nav-item">
                         <a class="nav-link" href="#exp_skill">
                             Skills & Expertise
                         </a>
@@ -88,11 +93,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#publication">
                             Publication List
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#awards">
-                            Awards
                         </a>
                     </li>
                 </ul>
@@ -530,6 +530,16 @@
             </section>
             <hr class="m-0" />
 
+            <!-- Awards-->
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 section-title">
+                        Awards
+                    </h2>
+                </div>
+            </section>
+            <hr class="m-0" />
+
             <!-- Proficiencies and Skills-->
             <section class="resume-section" id="exp_skill">
                 <div class="resume-section-content">
@@ -670,25 +680,35 @@
                     <h2 class="mb-5 section-title">
                         Publication List
                     </h2>
-                    <ul>
+                    <ol reversed>
                         <li v-for="paper in papers">
-                            <img v-bind:src="paper.img" alt="" style="width: 100px; display: inline-block">
-                            <div class="paper-description" style="display: inline-block">
-                                <strong>Title: </strong>{{paper.title}}<br>
-                                <strong>Author: </strong>{{paper.author}}<br>
+                            <img v-bind:src="paper.img" alt="">
+                            <div class="paper-description">
+                                <div class="title" v-html="paper.title">
+                                    {{paper.title}}
+                                </div>
+                                <div class="author" v-html="paper.author">
+                                    {{paper.author}}
+                                </div>
+                                <div class="journal">
+                                    {{paper.journal}} {{paper.volume}}
+                                </div>
+                                <div class="issue-page" v-if="paper.published && paper.issue">
+                                    {{paper.issue}},
+                                </div>
+                                <div class="issue-page" v-if="paper.published">
+                                    {{paper.page}}
+                                </div>
+                                <div class="year">
+                                    ({{paper.year}})
+                                </div>
+                                <a v-bind:href="paper.link" class="link" target="_blank"  v-if="paper.published">
+                                    <i class="fa-solid fa-link"></i>
+                                    Link
+                                </a>
                             </div>
                         </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5 section-title">
-                        Awards
-                    </h2>
+                    </ol>
                 </div>
             </section>
             <hr class="m-0" />

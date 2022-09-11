@@ -588,3 +588,68 @@ section.resume-section .resume-section-content {
         max-width: 70px;
     }
 }
+
+/* Publication */
+#publication ol{
+    padding-left: 26px;;
+}
+#publication li{
+    padding: 5px 0;
+}
+#publication li img{
+    display: none;
+    width: 100px;
+}
+#publication li .paper-description{
+    display: block;
+    text-align: justify;
+    font-size: 16px;
+}
+#publication li .paper-description .title{
+    font-weight: 700;
+}
+#publication li .paper-description .author{
+    font-size: 14px;
+    color: #555;
+}
+#publication li .paper-description .journal{
+    font-style: italic;
+    font-weight: 700;
+    display: inline-block;
+}
+#publication li .paper-description .issue-page{
+    display: inline-block;
+    padding-left: 5px;
+}
+#publication li .paper-description .year{
+    display: inline-block;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+#publication li .paper-description .link{
+    font-size: 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(107, 166, 206, 1);
+}
+@media screen and (min-width: 768px){
+    #publication ol{
+        list-style: none;
+        padding: 0;
+    }
+    #publication li{
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+    #publication li img{
+        display: inline-block;
+        width: 100px;
+    }
+    #publication li .paper-description{
+        margin-left: 15px;
+    }
+}
+@media screen and (min-width: 992px){
+
+}
