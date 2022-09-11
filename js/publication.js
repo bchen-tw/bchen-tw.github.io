@@ -36,7 +36,7 @@ var paper_data = [
         link: 'https://opg.optica.org/ol/fulltext.cfm?uri=ol-47-17-4423&id=495634'
     },
     {
-        img: 'assets/img/journal/frontiers-in-photonics.jpg',
+        img: 'assets/img/journal/no-cover.png',
         title: 'Double-Pass Multiple-Plate Continuum for High-Temporal-Contrast Nonlinear Pulse Compression',
         author:'<span style="color: rgb(31, 85, 143);"><u><strong>Bo-Han Chen</strong></u></span>, Jia-Xuan Su, Jhan-Yu Guo, Kai Chen, Shi-Wei Chu, Hsuan-Hao Lu, Chih-Hsuan Lu and Shang-Da Yang',
         journal: 'Frontiers in Photonics',

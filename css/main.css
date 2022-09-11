@@ -88,7 +88,7 @@
     color: rgba(107, 166, 206, 0.8);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     #navigation {
       padding-left: 0;
       padding-right: 0;
@@ -190,7 +190,7 @@ section.resume-section .resume-section-content {
         padding: 50px 100px 50px 100px;
     }
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1200px) {
     
     section.resume-section {
         margin-left: 320px;
@@ -610,7 +610,7 @@ section.resume-section .resume-section-content {
 }
 #publication li .paper-description .author{
     font-size: 14px;
-    color: #555;
+    color: #777;
 }
 #publication li .paper-description .journal{
     font-style: italic;
