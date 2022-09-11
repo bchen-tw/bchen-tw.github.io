@@ -88,6 +88,7 @@
     color: rgba(107, 166, 206, 0.8);
 }
 
+/* 992px <-> 1200px */
 @media screen and (min-width: 1200px) {
     #navigation {
       padding-left: 0;
@@ -190,6 +191,7 @@ section.resume-section .resume-section-content {
         padding: 50px 100px 50px 100px;
     }
 }
+/* 992px <-> 1200px */
 @media screen and (min-width: 1200px) {
     
     section.resume-section {
