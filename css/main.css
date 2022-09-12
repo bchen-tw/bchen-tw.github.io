@@ -655,3 +655,16 @@ section.resume-section .resume-section-content {
 @media screen and (min-width: 992px){
 
 }
+
+/* footer */
+footer{
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: #aaa;
+}
+@media screen and (min-width: 1200px) {
+    footer{
+        margin-left: 320px;
+    }
+}
