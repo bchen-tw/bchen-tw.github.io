@@ -26,7 +26,7 @@ var paper_data = [
     {
         img: 'assets/img/journal/opt-lett.jpg',
         title: 'Vortex beam assisted energy up-scaling for multiple-plate compression with a single spiral phase plate',
-        author:'<span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Hsing-Wei Huang, Ren-Siang Ye, Chih-Hsuan Lu, Kai Chen, and Shang-Da Yang',
+        author:'<span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen*</u></span>, Hsing-Wei Huang, Ren-Siang Ye, Chih-Hsuan Lu, Kai Chen, and Shang-Da Yang',
         journal: 'Optics Letters',
         volume: '47',
         issue: '17',
