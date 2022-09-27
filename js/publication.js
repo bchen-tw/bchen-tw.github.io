@@ -48,7 +48,7 @@ var paper_data = [
         link: 'https://www.frontiersin.org/articles/10.3389/fphot.2022.937622/full'
     },
     {
-        img: 'assets/img/journal/optica.jpg',
+        img: 'assets/img/journal/optica2021.jpg',
         title: 'Asymmetric single-cycle control of valence electron motion in polar chemical bonds',
         author:'Yuya Morimoto, Yasushi Shinohara, Mizuki Tani, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Kenichi L. Ishikawa, and Peter Baum',
         journal: 'Optica',
@@ -120,7 +120,7 @@ var paper_data = [
         link: 'https://opg.optica.org/oe/fulltext.cfm?uri=oe-26-4-3861&id=381423'
     },
     {
-        img: 'assets/img/journal/optica.jpg',
+        img: 'assets/img/journal/optica2014.jpg',
         title: 'Generation of intense supercontinuum in condensed media',
         author:'Chih-Hsuan Lu, Yu-Jung Tsou, Hong-Yu Chen, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Yu-Chen Cheng, Shang-Da Yang, Ming-Chang Chen, Chia-Chen Hsu, and A. H. Kung',
         journal: 'Optica',
