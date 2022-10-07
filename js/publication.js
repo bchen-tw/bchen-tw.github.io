@@ -7,7 +7,7 @@ var paper_data = [
         volume: '30',
         issue: '21',
         page: '38975-38984',
-        year: '2022, Accepted',
+        year: '2022',
         published: true,
         link: 'https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-21-38975&id=509741'
     },
