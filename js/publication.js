@@ -4,12 +4,12 @@ var paper_data = [
         title: 'Towards Stimulated Raman Scattering Spectro-Microscopy Across the Entire Raman Active Region Using Multiple-plate Continuum',
         author:'Guan-Jie Huang, Pei-Chen Lai, Ming-Wei Shen, Jia-Xuan Su, Jhan-Yu Guo, Kuo-Chuan Chao, Peng Lin, Ji-Xin Cheng, Li-An Chu, Ann-Shyn Chiang, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Shi-Wei Chu and Shang-Da Yang',
         journal: 'Optics Express',
-        volume: '',
-        issue: '',
-        page: '',
+        volume: '30',
+        issue: '21',
+        page: '38975-38984',
         year: '2022, Accepted',
-        published: false,
-        link: ''
+        published: true,
+        link: 'https://opg.optica.org/oe/fulltext.cfm?uri=oe-30-21-38975&id=509741'
     },
     {
         img: 'assets/img/journal/annalen-der-physik.webp',
