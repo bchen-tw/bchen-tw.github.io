@@ -1,1 +1,736 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="/favicon.ico"><title>todo-ninja</title><script defer="defer" src="/js/chunk-vendors.ab49904b.js"></script><script defer="defer" src="/js/app.13babc30.js"></script><link href="/css/chunk-vendors.06379813.css" rel="stylesheet"><link href="/css/app.9b8c33d7.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but todo-ninja doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div></body></html>
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="My resume" />
+        <meta name="author" content="Bo-Han Chen" />
+        <meta property="og:title" content="Bo-Han Chen 陳柏翰"></meta>
+        <meta property="og:type" content="Resume 個人網頁履歷"></meta>
+        <meta property="og:url" content="https://bchen-tw.github.io"></meta>
+        <meta property="og:image" content="assets/img/profile.jpg"></meta>
+        
+        <title>Bo-Han Chen</title>
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <!-- Main CSS  -->
+        <link rel="stylesheet" type="text/css" href="css/main.css">
+        <!-- Webpage logo -->
+        <link rel="icon" type="image/x-icon" href="assets/img/icon.png" />
+
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="assets/fontawsome/css/brands.min.css">
+        <link rel="stylesheet" href="assets/fontawsome/css/solid.min.css">
+        <link rel="stylesheet" href="assets/fontawsome/css/fontawesome.min.css">
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+
+        <!-- JS -->
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/mani.js"></script>
+        <script src="js/jquery-3.6.1.min.js"></script>
+        <script src="js/vue.global.js"></script>
+        <script src="js/publication.js"></script>
+
+        <style>
+            @media screen and (min-width: 768px) {
+                #jumbotron{
+                    background: url(assets/img/jumbotron_compressed.jpg) right top;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    margin-top: 0px;
+                }
+            }
+        </style>
+
+    </head>
+
+    <body id="page-top">
+
+        <!-- 導覽列 -->
+        <nav class="navbar navbar-expand-xl bg-primary fixed-top" id="navigation">
+            <a class="navbar-brand" href="#page-top">
+                <span class="d-block d-xl-none">
+                    Bo-Han Chen
+                </span>
+                <span class="d-none d-xl-block">
+                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="Portrait photo" />
+                </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <div class="navbar-toggler-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-xl-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about">
+                            About me
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#experience">
+                            Experience
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#education">
+                            Education
+                        </a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" href="#awards">
+                            Awards
+                        </a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#exp_skill">
+                            Skills & Expertise
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#publication">
+                            Publication List
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- 主要內容 -->
+        <div class="container-fluid p-0" id="mainText">
+            <!-- 大頭貼 -->
+            <div id="portrait" class="d-md-none">
+                <img src="assets/img/profile.jpg" alt="" class="rounded-circle">
+            </div>
+            <!-- About (Jumbotron)-->
+            <section class="resume-section" id="jumbotron">
+                <div class="resume-section-content" style="z-index: 1">
+                    <h1 class="mb-0">
+                        Bo-Han
+                        <span>
+                            Chen
+                        </span>
+                    </h1>
+                    <div class="subheading mt-0 mb-5">
+                        bohan.chen[at]gapp.nthu.edu.tw
+                    </div>
+                    <p class="lead mb-0 mb-md-5">
+                        LASER PHYSICIST / SCIENTIST / LASER ENGINEER<br><br>
+                        LIGHT is not only essential for our lives but also a critical tool that helps improve science and technologies in modern society. My interest lies in exploring the potential of light, specifically LASER, and developing novel techniques for the academy and the industry with it.
+                    </p>
+                </div>
+                <p class="location">
+                    Petra, Jordan
+                </p>
+            </section>
+            <!-- About-->
+            <section class="resume-section" id="about" >
+                <div class="resume-section-content">
+                    <h2 class="mb-4 pt-5 section-title">
+                        About me
+                    </h2>
+                    <p class="mb-4">
+                        As a double-E student, I was taught and trained to think logically, observe things from different aspects, and solve problems like an engineer. And that kind of affects my personality - I like to do things reasonably. I am self-disciplined, and I sometimes make up 'protocols' for myself to follow. I care about details, which occasionally costs me tons of time for correcting stuff that nobody will ever notice.
+                    </p>
+                    <div class="mb-0">
+                        <div class="row d-flex flex-column flex-md-row align-items-md-center">
+                            <div class="col-12 col-md-6 d-flex flex-column align-items-center">
+                                <img src="assets/img/about_photo_compressed.jpg" alt="" class="w-100">
+                                <p style="font-size: 14px; color: #888;">
+                                    Zürich, Switzerland
+                                </p>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <div class="row flex-wrap">
+                                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-md-start">
+                                        <ul class="about-info d-flex flex-column justify-content-between align-items-center align-items-md-start">
+                                            <div class="list-title">
+                                                <i class="fa-regular fa-user"></i>
+                                                <strong>Bio-info</strong>
+                                            </div>
+                                            <li class="list-item">
+                                                <strong>
+                                                    Birth year:
+                                                </strong>
+                                                <span>
+                                                    1991
+                                                </span>
+                                            </li>
+                                            <li class="list-item">
+                                                <strong>
+                                                    City:
+                                                </strong>
+                                                <span>
+                                                    Hsinchu city, Taiwan
+                                                </span>
+                                            </li>
+                                            <li class="list-item">
+                                                <strong>
+                                                    Website:
+                                                </strong>
+                                                <span>
+                                                    bchen-tw.github.io
+                                                </span>
+                                            </li> 
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-md-start">
+                                        <ul class="language-list d-flex flex-column justify-content-start align-items-start align-items-center align-items-md-start">
+                                            <div class="list-title">
+                                                <i class="fa-solid fa-language"></i>
+                                                <strong>Language</strong>
+                                            </div>
+                                            <li class="list-item">
+                                                <strong>
+                                                    Chinese:
+                                                </strong>
+                                                <span>
+                                                    Mother tongue
+                                                </span>
+                                            </li>
+                                            <li class="list-item">
+                                                <strong>
+                                                    English:
+                                                </strong>
+                                                <span>
+                                                    Fluent
+                                                </span>
+                                            </li>
+                                            <li class="list-item">
+                                                <strong>
+                                                    German:
+                                                </strong>
+                                                <span>
+                                                    Kindergarten
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-md-start">
+                                        <ul class="sport-list d-flex flex-column justify-content-between align-items-start align-items-center align-items-md-start">
+                                            <div class="list-title">
+                                                <i class="fa-solid fa-person-walking"></i>
+                                                <strong>Sport</strong>
+                                            </div>
+                                            <li class="list-item">
+                                                <span>
+                                                    Basketball
+                                                </span>
+                                            </li>
+                                            <li class="list-item">
+                                                <span>
+                                                    Hiking
+                                                </span>
+                                            </li>
+                                            <li class="list-item">
+                                                <span>
+                                                    Snowboarding
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-12 col-sm-6 d-flex justify-content-center justify-content-md-start">
+                                        <ul class="hobby-list d-flex flex-column justify-content-between align-items-start align-items-center align-items-md-start" style="padding-left: 0;">
+                                            <div class="list-title">
+                                                <i class="fa-regular fa-heart"></i>
+                                                <strong>Hobby</strong>
+                                            </div>
+                                            <li class="list-item">
+                                                <span>
+                                                    Movie
+                                                </span>
+                                            </li>
+                                            <li class="list-item">
+                                                <span>
+                                                    Comics
+                                                </span>
+                                            </li>
+                                            <li class="list-item">
+                                                <span>
+                                                    Latte art
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3">
+                            I like to work with a group of people. During my Ph.D., I got used to communicating and collaborating with people from different countries. The best part of working in a team is that I always knew when and whom to ask for help, instead of fighting alone. I also like to improvise. I am very fond of putting crazy ideas into practice with whatever we have. After all, we scientists don't always have the right tool in hand for our projects ;) 
+                        </p>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 pt-5 section-title">
+                        Experience
+                    </h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-shrink-0 d-flex justify-content-center align-items-lg-center pb-3">
+                            <img src="assets/img/logos/school-logo/NTHU_rounded.png" alt="" class="school-logo w-100 h-100">
+                        </div>
+                        <div class="flex-grow-1 exp-info">
+                            <h3 class="uni-name">
+                                National Tsing Hua University
+                            </h3>
+                            <div class="subheading">
+                                Postdoc researcher / Alternative service
+                            </div>
+                            <div class="department">
+                                Institute of Photonics Technologies (IPT)
+                            </div>
+                            <div class="professor">
+                                <strong>Professor: </strong>
+                                <a href="http://www.ipt.nthu.edu.tw/ultrafast/" target="_blank">
+                                    Prof. Dr. Shang-Da Yang
+                                </a>
+                            </div>
+                            <div class="projects">
+                                <h5>Projects:</h5>
+                                <ul class="project-list fa-ul">
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-wrench"></i>
+                                        </span>
+                                        Designing and building high-speed spectrometer for ultrafast transient absorption spectroscopy (in collaboration with <i>Victoria University of Wellington</i>).
+                                    </li>
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-wrench"></i>
+                                        </span>
+                                        Improving and generating sub-5 fs pulses with multiple-plate continuum (MPC) via double-pass geometry.
+                                    </li>
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-wrench"></i>
+                                        </span>
+                                        Improving stimulated Raman scattering imaging quality using MPC (in collaboration with the Brain Research Center (BRC), NTHU).
+                                    </li>
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-wrench"></i>
+                                        </span>
+                                        Designing and building multi-pass cells (in collaboration with the <i>Physics department of National Taiwan University (NTU)</i>).
+                                    </li>
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </span>
+                                        Simulating spectral broadening behaviors in gas-filled hollow-core fibers (in collaboration with <i>Industrial Technology Research Institute (ITRI)</i>)
+                                    </li>
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </span>
+                                        Studying energy enhancement for MPC with Laguerre Gaussian (vortex / donut-shaped) beams.
+                                    </li>
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </span>
+                                        Studying the ultrafast dynamics of 2D materials (MoS<sub>2</sub>, MoSe<sub>2</sub>, WS<sub>2</sub>) and novel light-emitting materials (perovskite) (in collaboration with the <i>department of Materials Science and Engineering</i>, <i>department of Chemistry of National Tsing Hua University (NTHU)</i> and the <i>Department of Electronic Engineering of Ming Chi University of Technology</i>).
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 edu-time mt-2 mt-md-0">
+                            <span class="text-primary">
+                                Apr. 2021 - Now
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-shrink-0 d-flex justify-content-center align-items-lg-center pb-3">
+                            <img src="assets/img/logos/school-logo/UKonstanz_squared_02.png" alt="" class="school-logo w-100 h-100">
+                        </div>
+                        <div class="flex-grow-1  exp-info">
+                            <h3 class="uni-name">
+                                Universität Konstanz
+                            </h3>
+                            <div class="subheading">
+                                Postdoc researcher
+                            </div>
+                            <div class="department">
+                                Fachbereich Physik
+                            </div>
+                            <div class="professor">
+                                <strong>Professor: </strong>
+                                <a href="https://www.baum.uni-konstanz.de/research/" target="_blank">
+                                    Prof. Dr. Peter Baum
+                                </a>
+                            </div>
+                            <div class="projects">
+                                <h5>Projects:</h5>
+                                <ul class="project-list fa-ul">
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-wrench"></i>
+                                        </span>
+                                        Building up a non-collinear optical parametric amplifier (NOPA).
+                                    </li>
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-wrench"></i>
+                                        </span>
+                                        Generating few-cycle mid-infrared pulses centering at 10 μm.
+                                    </li>
+                                    <li class="project-item">
+                                        <span class="fa-li">
+                                            <i class="fa-solid fa-magnifying-glass"></i>
+                                        </span>
+                                        Studying metal-insulator transition in VO<sub>2</sub> using optical-pump / mid-infrared-probe experiments.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 edu-time mt-2 mt-md-0">
+                            <span class="text-primary">
+                                Jan. 2020 - Dec. 2020
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 pt-5 section-title">
+                        Education
+                    </h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-shrink-0 d-flex justify-content-center align-items-lg-center pb-3">
+                            <img src="assets/img/logos/school-logo/LMU_rounded.png" alt="" class="school-logo w-100 h-100">
+                        </div>
+                        <div class="flex-grow-1 edu-info">
+                            <h3 class="uni-name">
+                                Ludwig-Maximilians-Universität München
+                            </h3>
+                            <div class="subheading">
+                                Doctor rerum naturalium (Dr. rer. nat.)
+                            </div>
+                            <div class="department">
+                                Fakultät für Physik & Max Planck Institut für Quantenoptik (MPQ)
+                            </div>
+                            <div class="advisor">
+                                <strong>Advisor: </strong>
+                                <a href="https://www.attoworld.de/" target="_blank">
+                                    Prof. Dr. Ferenc Krausz
+                                </a>
+                            </div>
+                            <div class="thesis">
+                                <strong>Thesis: </strong>
+                                <a href="https://edoc.ub.uni-muenchen.de/25390/" target="_blank">
+                                    Single-cycle Mid-infrared Pulse Generation via Nonlinear Optics
+                                </a>
+                            </div>
+                            <div class="note">
+                                <div class="note-overall">
+                                    Gesamtnote / Overall: 1.18
+                                </div>
+                                <div class="note-detail">
+                                    Dissertation / Thesis: 1.3
+                                </div>
+                                <div class="note-detail">
+                                    mündlichen Prüfung / Oral exam: 1.0
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 edu-time mt-2 mt-md-0">
+                            <span class="text-primary">
+                                Sep. 2015 - Dec. 2019
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-shrink-0 d-flex justify-content-center align-items-lg-center pb-3">
+                            <img src="assets/img/logos/school-logo/NTHU_rounded.png" alt="" class="school-logo w-100 h-100">
+                        </div>
+                        <div class="flex-grow-1 edu-info">
+                            <h3 class="uni-name">
+                                National Tsing Hua University
+                            </h3>
+                            <div class="subheading">
+                                Master of Science (M.S.)
+                            </div>
+                            <div class="department">
+                                Institute of Photonics Technologies (IPT)
+                            </div>
+                            <div class="advisor">
+                                <strong>Advisor: </strong>
+                                <span>
+                                    Prof. Dr. Andy H. Kung
+                                </span>
+                            </div>
+                            <div class="thesis">
+                                <strong>Thesis: </strong>
+                                <a href="https://hdl.handle.net/11296/3zcq93" target="_blank">
+                                    Few-Cycle Pulse Compression from Supercontinuum
+                                </a>
+                            </div>
+                            <div class="note">
+                                <div class="note-overall">
+                                    GPA: 4.26 / 4.3
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 edu-time mt-2 mt-md-0">
+                            <span class="text-primary">
+                                Sep. 2013 - Jun. 2015
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-shrink-0 d-flex justify-content-center align-items-lg-center pb-3">
+                            <img src="assets/img/logos/school-logo/NTHU_rounded.png" alt="" class="school-logo w-100 h-100">
+                        </div>
+                        <div class="flex-grow-1 edu-info">
+                            <h3 class="uni-name">
+                                National Tsing Hua University
+                            </h3>
+                            <div class="subheading">
+                                Bachelor of Science (B.S.)
+                            </div>
+                            <div class="department">
+                                Department of Electrical Engineering
+                            </div>
+                            <div class="note">
+                                <div class="note-overall">
+                                    GPA: 89.59 / 100
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 edu-time mt-2 mt-md-0">
+                            <span class="text-primary">
+                                Sep. 2009 - Jun. 2013
+                            </span>
+                        </div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-shrink-0 d-flex justify-content-center align-items-lg-center pb-3">
+                            <img src="assets/img/logos/school-logo/TCFSH_squared.png" alt="" class="school-logo w-100 h-100">
+                        </div>
+                        <div class="flex-grow-1 edu-info">
+                            <h3 class="uni-name">
+                                Taichung First Senior High School
+                            </h3>
+                            <div class="subheading">
+                                High school
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0 edu-time mt-2 mt-md-0">
+                            <span class="text-primary">
+                                Sep. 2006 - Jun. 2009
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Awards
+            <section class="resume-section" id="awards">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 section-title">
+                        Awards
+                    </h2>
+                </div>
+            </section>
+            <hr class="m-0" /> -->
+
+            <!-- Proficiencies and Skills-->
+            <section class="resume-section" id="exp_skill">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 pt-5 section-title">
+                        Expertise & Skills
+                    </h2>
+                    <div class="skill-category">
+                        <h3>
+                            Nonlinear Optics
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/nonlinear-optics/nonlinear-white-light-generation.png" alt="" class="img-fluid">
+                                <div class="skill-item-title">
+                                    White-light Generation
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/nonlinear-optics/nonlinear-spectral-broadening.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Spectral Broadening
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/nonlinear-optics/nonlinear-nopa.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Non-collinear Optical Parametric Amplification (NOPA)
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/nonlinear-optics/nonlinear-mir-generation.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Mid-infrared Generation
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skill-category mt-4">
+                        <h3>
+                            Ultrafast Optics (fs - ps)
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/ultrafast-optics/ultrafast-compression.png" alt="" class="img-fluid">
+                                <div class="skill-item-title">
+                                    Pulse Compression
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/ultrafast-optics/ultrafast-shaping.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Pulse Shaping
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/ultrafast-optics/ultrafast-measurement.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Pulse Measurement
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skill-category mt-4">
+                        <h3>
+                            Optical Solution
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/optical-solution/solution-simulation.png" alt="" class="img-fluid">
+                                <div class="skill-item-title">
+                                    Optical Simulation
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/optical-solution/solution-beam-shaping.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Beam Shaping
+                                </div>
+                            </li>
+                            <li class="skill-item col-6 col-lg-3">
+                                <img src="assets/img/logos/optical-solution/solution-design.png" alt=""  class="img-fluid">
+                                <div class="skill-item-title">
+                                    Optical Design
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skill-category mt-4">
+                        <h3>
+                            Software / Programing
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/excel.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Excel
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/powerpoint.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    PowerPoint
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/blender.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Blender
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/solidworks.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Solidworks
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/origin.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Origin Pro
+                                </div>
+                            </li>
+                            <li class="skill-item">
+                                <img src="assets/img/logos/software/matlab.png" alt="" class="img-fluid software-logo">
+                                <div class="skill-item-title">
+                                    Matlab
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+
+            <!-- Publications-->
+            <section class="resume-section" id="publication">
+                <div class="resume-section-content">
+                    <h2 class="mb-5 pt-5 section-title">
+                        Publication List
+                    </h2>
+                    <ol reversed>
+                        <li v-for="paper in papers">
+                            <img v-bind:src="paper.img" alt="">
+                            <div class="paper-description">
+                                <div class="title" v-html="paper.title">
+                                    {{paper.title}}
+                                </div>
+                                <div class="author" v-html="paper.author">
+                                    {{paper.author}}
+                                </div>
+                                <div class="journal">
+                                    {{paper.journal}} {{paper.volume}}
+                                </div>
+                                <div class="issue-page" v-if="paper.published && paper.issue">
+                                    {{paper.issue}},
+                                </div>
+                                <div class="issue-page" v-if="paper.published">
+                                    {{paper.page}}
+                                </div>
+                                <div class="year">
+                                    ({{paper.year}})
+                                </div>
+                                <a v-bind:href="paper.link" class="link" target="_blank"  v-if="paper.published">
+                                    <i class="fa-solid fa-link"></i>
+                                    Link
+                                </a>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </section>
+            <!-- <hr class="m-0" /> -->
+
+            <!-- Footer -->
+            <footer>
+                Website built with Bootstrap 5 and Vue 3.<br>
+                Copyright &copy; 2022 Bo-Han Chen
+            </footer>
+        </div>
+
+    </body>
+
+</html>
