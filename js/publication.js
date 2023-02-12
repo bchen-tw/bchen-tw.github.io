@@ -1,5 +1,17 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/adv-sci-v10-4.jpg',
+        title: 'Vacuum-Deposited Inorganic Perovskite Light-Emitting Diodes with External Quantum Efficiency Exceeding 10% via Composition and Crystallinity Manipulation of Emission Layer under High Vacuum',
+        author:'Chung-An Hsieh, Guang-Hsun Tan, Yung-Tang Chuang, Hao-Cheng Lin, Po-Ting Lai, Pei-En Jan, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Shang-Da Yang, Kai-Yuan Hsiao, Ming-Yen Lu, Li-Yin Chen, Hao-Wu Lin',
+        journal: 'Advanced Science',
+        volume: '10',
+        issue: '',
+        page: '2206076',
+        year: '2023',
+        published: true,
+        link: 'https://doi.org/10.1002/advs.202206076'
+    },
+    {
         img: 'assets/img/journal/opt-express.jpg',
         title: 'Towards Stimulated Raman Scattering Spectro-Microscopy Across the Entire Raman Active Region Using Multiple-plate Continuum',
         author:'Guan-Jie Huang, Pei-Chen Lai, Ming-Wei Shen, Jia-Xuan Su, Jhan-Yu Guo, Kuo-Chuan Chao, Peng Lin, Ji-Xin Cheng, Li-An Chu, Ann-Shyn Chiang, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Shi-Wei Chu and Shang-Da Yang',
