@@ -1,5 +1,17 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/angew-chem-v62-14.jpg',
+        title: 'Excited-State THz Vibrations in Aggregates of PtII Complexes Contribute to the Enhancement of Near-Infrared Emission Efficiencies',
+        author:'Yu-Chen Wei, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Ren-Siang Ye, Hsing-Wei Huang, Jia-Xuan Su, Chao-Yang Lin, Justin Hodgkiss, Lian-Yan Hsu, Yun Chi, Kai Chen, Chih-Hsuan Lu, Shang-Da Yang and Pi-Tai Chou',
+        journal: 'Angewandte Chemie',
+        volume: '62',
+        issue: '14',
+        page: 'e202300815',
+        year: '2023',
+        published: true,
+        link: 'https://onlinelibrary.wiley.com/doi/10.1002/anie.202300815'
+    },
+    {
         img: 'assets/img/journal/adv-sci-v10-4.jpg',
         title: 'Vacuum-Deposited Inorganic Perovskite Light-Emitting Diodes with External Quantum Efficiency Exceeding 10% via Composition and Crystallinity Manipulation of Emission Layer under High Vacuum',
         author:'Chung-An Hsieh, Guang-Hsun Tan, Yung-Tang Chuang, Hao-Cheng Lin, Po-Ting Lai, Pei-En Jan, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Shang-Da Yang, Kai-Yuan Hsiao, Ming-Yen Lu, Li-Yin Chen, Hao-Wu Lin',
