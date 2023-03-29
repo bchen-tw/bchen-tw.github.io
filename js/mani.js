@@ -11,7 +11,8 @@ window.addEventListener('DOMContentLoaded', event => {
     const vm1 = createApp({
         data() {
             return {
-                papers: paper_data
+                papers: paper_data,
+                projects: project_data
             }
         }
     }).mount('#publication')
