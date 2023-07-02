@@ -60,7 +60,7 @@ var nthu_project_data = [
     isBuilding: false,
     isResearching: true,
     isVisiting: false,
-    description: 'Simulating spectral broadening behaviors in gas-filled hollow-core fibers (in collaboration with <i>Industrial Technology Research Institute (ITRI)</i>)'
+    description: 'Simulating spectral broadening behaviors in gas-filled hollow-core fibers (in collaboration with <i>Industrial Technology Research Institute (ITRI)</i>), bringing 600,000 technical service income to the Photonics Research Center, NTHU.'
   },
   {
     isBuilding: false,
