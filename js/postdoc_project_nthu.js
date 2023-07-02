@@ -17,7 +17,7 @@ var nthu_project_data = [
     isBuilding: true,
     isResearching: false,
     isVisiting: false,
-    description: 'Inspecting and fixing a commercial Raman microscope, saving 820,000 NTD in the budget for the Institute of Electronics Engineering, NTHU.'
+    description: 'Inspecting and fixing a commercial Raman microscope, saving ~1M NTD in the budget for the Institute of Electronics Engineering, NTHU.'
   },
   {
     isBuilding: true,
@@ -60,7 +60,7 @@ var nthu_project_data = [
     isBuilding: false,
     isResearching: true,
     isVisiting: false,
-    description: 'Simulating spectral broadening behaviors in gas-filled hollow-core fibers (in collaboration with <i>Industrial Technology Research Institute (ITRI)</i>), bringing 600,000 technical service income to the Photonics Research Center, NTHU.'
+    description: 'Simulating spectral broadening behaviors in gas-filled hollow-core fibers (in collaboration with <i>Industrial Technology Research Institute (ITRI)</i>), bringing 600,000 NTD (technical service income) to the Photonics Research Center, NTHU.'
   },
   {
     isBuilding: false,
