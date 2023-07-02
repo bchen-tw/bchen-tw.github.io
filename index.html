@@ -327,6 +327,14 @@
                                                 {{project.description}}
                                             </span>
                                         </div>
+                                        <div v-if="project.isVisiting">
+                                            <span class="fa-li">
+                                                <i class="fa-regular fa-handshake"></i>
+                                            </span>
+                                            <span v-html="project.description">
+                                                {{project.description}}
+                                            </span>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
