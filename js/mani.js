@@ -12,9 +12,16 @@ window.addEventListener('DOMContentLoaded', event => {
         data() {
             return {
                 papers: paper_data,
-                projects: project_data
+                projects_konstanz: konstanz_project_data,
+                projects_nthu: nthu_project_data,
+                awards: award_data,
+                education: education_data,
+                nonlinear_optics_skills: skill_nonlinear_optics_data,
+                ultrafast_optics_skills: skill_ultrafast_optics_data,
+                optical_solution_skills: skill_optical_solution_data,
+                software_skills: skill_software_data
             }
         }
-    }).mount('#publication')
+    }).mount('#page-top')
 
 });

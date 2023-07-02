@@ -466,7 +466,8 @@ section.resume-section .resume-section-content {
     list-style: none;
 }
 #experience .projects .project-list .project-item{
-    padding-bottom: 5px;
+    padding-bottom: 7px;
+    text-align: justify;
 }
 #experience .professor a{
     text-decoration: none;
@@ -556,6 +557,59 @@ section.resume-section .resume-section-content {
     }
 }
 
+
+
+
+/* Awards */
+#awards ol{
+    list-style: none;
+    padding-left: 26px;;
+}
+#awards li{
+    padding: 5px 0;
+}
+#award li .award-description{
+    width: 100vw
+}
+#awards li .award-icon{
+    font-size: 22px;
+    padding-right: 15px;
+}
+#awards li .title{
+    display: inline-block;
+    text-align: justify;
+    font-size: 22px;
+    font-weight: 700;
+}
+#awards li .organizer{
+    font-size: 16px;
+    font-style: italic;
+    padding: 5px 0px;
+}
+#awards li .year{
+    text-align: left;
+    font-weight: 700;
+}
+@media screen and (min-width: 768px){
+    #awards ol{
+        list-style: none;
+        padding: 0;
+    }
+    #awards li{
+        padding: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+    #awards li .paper-description{
+        margin-left: 15px;
+    }
+    #awards li .award-icon{
+        display: inline-block;
+        font-size: 22px;
+        padding-right: 15px;
+    }
+}
+
 /* Expertise and Skills */
 #exp_skill .skill-category h3{
     font-size: 22px;
@@ -578,7 +632,7 @@ section.resume-section .resume-section-content {
 }
 
 #exp_skill .skill-category .skill-list .software-logo{
-    max-width: 50px;
+    max-height: 50px;
     filter: grayscale(0.1);
 }
 
@@ -595,7 +649,7 @@ section.resume-section .resume-section-content {
         margin-top: 10px;
     }
     #exp_skill .skill-category .skill-list .software-logo{
-        max-width: 60px;
+        max-height: 60px;
     }
 }
 @media screen and (min-width: 992px){
@@ -603,7 +657,7 @@ section.resume-section .resume-section-content {
         padding: 15px 30px;
     }
     #exp_skill .skill-category .skill-list .software-logo{
-        max-width: 70px;
+        max-height: 70px;
     }
 }
 

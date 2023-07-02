@@ -1,0 +1,62 @@
+var education_data = [
+  {
+    name: 'Ludwig-Maximilians-Universität München',
+    logo: 'assets/img/logos/school-logo/LMU_rounded.png',
+    level: 'Doctor rerum naturalium (Dr. rer. nat.)',
+    department: 'Fakultät für Physik & Max Planck Institut für Quantenoptik (MPQ)',
+    advisor: 'Prof. Dr. Ferenc Krausz',
+    advisor_link: 'https://www.attoworld.de/',
+    thesis: 'Single-cycle Mid-infrared Pulse Generation via Nonlinear Optics',
+    thesis_link: 'https://edoc.ub.uni-muenchen.de/25390/',
+    german_note: true,
+    note_overall: '1.18',
+    note_thesis: '1.3',
+    note_oral: '1.0',
+    period: 'Sep. 2015 - Dec. 2019'
+  },
+  {
+    name: 'National Tsing Hua University',
+    logo: 'assets/img/logos/school-logo/NTHU_rounded.png',
+    level: 'Master of Science (M.S.)',
+    department: 'Institute of Photonics Technologies (IPT)',
+    advisor: 'Prof. Dr. Andy H. Kung',
+    advisor_link: '',
+    thesis: 'Few-Cycle Pulse Compression from Supercontinuum',
+    thesis_link: 'https://hdl.handle.net/11296/3zcq93',
+    german_note: false,
+    note_overall: '4.26 / 4.3',
+    note_thesis: '',
+    note_oral: '',
+    period: 'Sep. 2013 - Jun. 2015'
+  },
+  {
+    name: 'National Tsing Hua University',
+    logo: 'assets/img/logos/school-logo/NTHU_rounded.png',
+    level: 'Bachelor of Science (B.S.)',
+    department: 'Department of Electrical Engineering',
+    advisor: '',
+    advisor_link: '',
+    thesis: '',
+    thesis_link: 'https://edoc.ub.uni-muenchen.de/25390/',
+    german_note: false,
+    note_overall: '89.59 / 100',
+    note_thesis: '',
+    note_oral: '',
+    period: 'Sep. 2009 - Jun. 2013'
+  },
+  {
+    name: 'Taichung First Senior High School',
+    logo: 'assets/img/logos/school-logo/TCFSH_squared.png',
+    level: 'High school',
+    department: '',
+    advisor: '',
+    advisor_link: '',
+    thesis: '',
+    thesis_link: '',
+    german_note: false,
+    note_overall: '',
+    note_thesis: '',
+    note_oral: '',
+    period: 'Sep. 2006 - Jun. 2009'
+  }
+]
