@@ -18,6 +18,7 @@ window.addEventListener('DOMContentLoaded', event => {
                 education: education_data,
                 nonlinear_optics_skills: skill_nonlinear_optics_data,
                 ultrafast_optics_skills: skill_ultrafast_optics_data,
+                ultrafast_spectroscopy_skills: skill_ultrafast_spectroscopy_data,
                 optical_solution_skills: skill_optical_solution_data,
                 software_skills: skill_software_data
             }

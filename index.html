@@ -39,6 +39,7 @@
         <script src="js/postdoc_project_nthu.js"></script>
         <script src="js/skill_nonlinear_optics.js"></script>
         <script src="js/skill_ultrafast_optics.js"></script>
+        <script src="js/skill_ultrafast_spectroscopy.js"></script>
         <script src="js/skill_optical_solution.js"></script>
         <script src="js/skill_software.js"></script>
         <script src="js/awards.js"></script>
@@ -520,6 +521,19 @@
                         </h3>
                         <ul class="skill-list">
                             <li class="skill-item col-6 col-lg-3" v-for="skill in ultrafast_optics_skills">
+                                <img v-bind:src="skill.img" alt="" class="img-fluid">
+                                <div class="skill-item-title">
+                                    {{skill.title}}
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="skill-category mt-4">
+                        <h3>
+                            Ultrafast Spectroscopy
+                        </h3>
+                        <ul class="skill-list">
+                            <li class="skill-item col-6 col-lg-3" v-for="skill in ultrafast_spectroscopy_skills">
                                 <img v-bind:src="skill.img" alt="" class="img-fluid">
                                 <div class="skill-item-title">
                                     {{skill.title}}
