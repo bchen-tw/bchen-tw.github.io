@@ -41,7 +41,7 @@ var nthu_project_data = [
     isBuilding: true,
     isResearching: false,
     isVisiting: false,
-    description: 'Designing and building a prism-based high-speed spectrometer for the visable range (450 - 1000 nm) for ultrafast transient absorption spectroscopy.'
+    description: 'Designing and building a prism-based high-speed spectrometer for the visible range (450 - 1000 nm) for ultrafast transient absorption spectroscopy.'
   },
   {
     isEducating: false,
