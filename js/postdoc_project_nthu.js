@@ -1,5 +1,25 @@
 var nthu_project_data = [
-  
+  {
+    isEducating: true,
+    isBuilding: false,
+    isResearching: false,
+    isVisiting: false,
+    description: 'Preparing and giving lectures (<i>Optical elements and their working principles</i> and <i>Nonlinear optics</i>) during the joint training program with the Department of Chemistry, NTHU.'
+  },
+  {
+    isEducating: true,
+    isBuilding: false,
+    isResearching: false,
+    isVisiting: false,
+    description: 'Training 17 master students and 5 under-graduates with laser tutorials and optical experiments.'
+  },
+  {
+    isEducating: true,
+    isBuilding: false,
+    isResearching: false,
+    isVisiting: false,
+    description: 'Mentoring 7 master students with their thesis and scientific research.'
+  },
   {
     isEducating: false,
     isBuilding: false,
@@ -7,7 +27,6 @@ var nthu_project_data = [
     isVisiting: false,
     description: 'Academic exchange with the University of Tokyo as a visiting scholar.'
   },
-  
   {
     isEducating: false,
     isBuilding: true,
