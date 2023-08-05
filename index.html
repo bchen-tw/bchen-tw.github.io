@@ -336,6 +336,14 @@
                                                 {{project.description}}
                                             </span>
                                         </div>
+                                        <div v-if="project.isEducating">
+                                            <span class="fa-li">
+                                                <i class="fa-solid fa-person-chalkboard"></i>
+                                            </span>
+                                            <span v-html="project.description">
+                                                {{project.description}}
+                                            </span>
+                                        </div>
                                     </li>
                                 </ul>
                             </div>
