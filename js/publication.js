@@ -1,6 +1,6 @@
 var paper_data = [
     {
-        img: 'assets/img/journal/JPhysChemB-v127-31.jpg',
+        img: 'assets/img/journal/journal-physical-chemistry-b-v127-31.jpg',
         title: 'Electronic Preresonance Stimulated Raman Scattering Spectromicroscopy Using Multiple-Plate Continuum',
         author:'Guan-Jie Huang, Cheng-Wei Li, Po-Yi Lee, Jia-Xuan Su, Kuo-Chuan Chao, Li-An Chu, Ann-Shyn Chiang, Ji-Xin Cheng, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Shi-Wei Chu, and Shang-Da Yang',
         journal: 'The Journal of Physical Chemistry B',
