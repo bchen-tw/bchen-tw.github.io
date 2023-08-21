@@ -1,6 +1,6 @@
 var award_data = [
   {
-    title: 'Outstanding alternative servicemen of 2023',
+    title: 'Outstanding Alternative Servicemen of 2023',
     organizer: 'National Conscription Agency, Ministry of the Interior',
     year:'2023'
   }

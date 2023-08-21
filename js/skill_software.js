@@ -32,6 +32,10 @@ var skill_software_data =[
     title: 'Matlab'
   },
   {
+    img: 'assets/img/logos/software/python.webp',
+    title: 'Python'
+  },
+  {
     img: 'assets/img/logos/software/zemax.png',
     title: 'Zemax'
   },
