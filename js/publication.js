@@ -1,5 +1,29 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/angew-chem-v62-36.jpg',
+        title: 'Self-Assembled Monolayers of Bi-Functionalized Porphyrins: A Novel Class of Hole-Layer-Coordinating Perovskites and Indium Tin Oxide in Inverted Solar Cells',
+        author:'Chieh-Ming Hung, Chi-Lun Mai, Chi-Chi Wu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Che-Chun Chu, Meng-Chuan Wang, Shang-Da Yang, Hsieh-Chih Chen, Chen-Yu Yeh, and Pi-Tai Chou',
+        journal: 'Angewandte Chemie International Edition',
+        volume: '62',
+        issue: '',
+        page: '',
+        year: '2023',
+        published: true,
+        link: 'https://doi.org/10.1002/anie.202309831'
+    },
+    {
+        img: 'assets/img/journal/nat-commu.jpg',
+        title: 'Synthesis, structural analysis, and properties of highly twisted alkenes 13,13’-bis(dibenzo[a,i]fluorenylidene) and its derivatives',
+        author:'Hao-Wen Kang, Yu-Chiao Liu, Wei-Kai Shao, Yu-Chen Wei, Chi-Tien Hsieh, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Shang-Da Yang, Mu-Jeng Cheng, Pi-Tai Chou, Ming-Hsi Chiang, and Yao-Ting Wu',
+        journal: 'Nature Communication',
+        volume: '14',
+        issue: '5248',
+        page: '',
+        year: '2023',
+        published: true,
+        link: 'https://doi.org/10.1038/s41467-023-40990-8'
+    },
+    {
         img: 'assets/img/journal/journal-physical-chemistry-b-v127-31.jpg',
         title: 'Electronic Preresonance Stimulated Raman Scattering Spectromicroscopy Using Multiple-Plate Continuum',
         author:'Guan-Jie Huang, Cheng-Wei Li, Po-Yi Lee, Jia-Xuan Su, Kuo-Chuan Chao, Li-An Chu, Ann-Shyn Chiang, Ji-Xin Cheng, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Shi-Wei Chu, and Shang-Da Yang',
@@ -12,7 +36,7 @@ var paper_data = [
         link: 'https://doi.org/10.1021/acs.jpcb.3c02629'
     },
     {
-        img: 'assets/img/journal/angew-chem-v62-14.jpg',
+        img: 'assets/img/journal/angew-chem-v62-16.jpg',
         title: 'Excited-State THz Vibrations in Aggregates of PtII Complexes Contribute to the Enhancement of Near-Infrared Emission Efficiencies',
         author:'Yu-Chen Wei, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Ren-Siang Ye, Hsing-Wei Huang, Jia-Xuan Su, Chao-Yang Lin, Justin Hodgkiss, Lian-Yan Hsu, Yun Chi, Kai Chen, Chih-Hsuan Lu, Shang-Da Yang and Pi-Tai Chou',
         journal: 'Angewandte Chemie International Edition',
