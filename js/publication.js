@@ -1,5 +1,17 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/adv-sci-v10-26.jpg',
+        title: 'Semi-Transparent, Pixel-Free Upconversion Goggles withDual Audio-Visual Communication',
+        author:'Chun-Jen Shih, Chao-Yang Lin, Kai Chen, Nurul Ridho Al Amin, Dian Luo, I-Sheng Hsu,Abdul Khalik Akbar, Sajal Biring, Chih-Hsuan Lu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Shang-Da Yang, Jiun-Haw Lee, and Shun-Wei Liu',
+        journal: 'Advanced Science',
+        volume: '10',
+        issue: '26',
+        page: '',
+        year: '2023',
+        published: true,
+        link: 'https://doi.org/10.1002/advs.202302631'
+    },
+    {
         img: 'assets/img/journal/angew-chem-v62-36.jpg',
         title: 'Self-Assembled Monolayers of Bi-Functionalized Porphyrins: A Novel Class of Hole-Layer-Coordinating Perovskites and Indium Tin Oxide in Inverted Solar Cells',
         author:'Chieh-Ming Hung, Chi-Lun Mai, Chi-Chi Wu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Che-Chun Chu, Meng-Chuan Wang, Shang-Da Yang, Hsieh-Chih Chen, Chen-Yu Yeh, and Pi-Tai Chou',
