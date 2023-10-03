@@ -4,7 +4,7 @@ var education_data = [
     logo: 'assets/img/logos/school-logo/LMU_rounded.png',
     level: 'Doctor rerum naturalium (Dr. rer. nat.)',
     department: 'Fakultät für Physik & Max Planck Institut für Quantenoptik (MPQ)',
-    advisor: 'Prof. Dr. Ferenc Krausz',
+    advisor: 'Prof. Dr. Ferenc Krausz (2023 Nobel Prize winner in Physics)',
     advisor_link: 'https://www.attoworld.de/',
     thesis: 'Single-cycle Mid-infrared Pulse Generation via Nonlinear Optics',
     thesis_link: 'https://edoc.ub.uni-muenchen.de/25390/',
