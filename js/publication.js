@@ -1,5 +1,17 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/small-v19-45.jpg',
+        title: 'Performance and Solution Structures of Side-Chain-Bridged Oligo (Ethylene Glycol) Polymer Photocatalysts for Enhanced Hydrogen Evolution under Natural Light Illumination',
+        author:'Tse-Fu Huang,  Jia-Jen Liu,  Ze-Yu Lai,  Je-Wei Chang,  Ying-Rang Zhuang,  Zi-Cheng Jiang,  Chih-Li Chang,  Wei-Cheng Lin,  Yan-Heng Chen,  Yi-Hsiang Wu,  Yu-En Sun,  Ting-An Luo,  Yi-Kuan Chen,  Jui-Chen Yen,  Hung-Kai Hsu,  <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>,  Li-Yu Ting,  Chia-Yeh Lu,  Yu-Tung Lin,  Ling-Yu Hsu,  Tien-Lin Wu,  Shang-Da Yang,  An-Chung Su,  U-Ser Jeng, and  Ho-Hsiu Chou',
+        journal: 'small',
+        volume: '',
+        issue: '',
+        page: '',
+        year: '2023',
+        published: true,
+        link: 'https://doi.org/10.1002/smll.202304743'
+    },
+    {
         img: 'assets/img/journal/adv-sci-v10-31.jpg',
         title: 'Semi-Transparent, Pixel-Free Upconversion Goggles withDual Audio-Visual Communication',
         author:'Chun-Jen Shih, Chao-Yang Lin, Kai Chen, Nurul Ridho Al Amin, Dian Luo, I-Sheng Hsu,Abdul Khalik Akbar, Sajal Biring, Chih-Hsuan Lu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Shang-Da Yang, Jiun-Haw Lee, and Shun-Wei Liu',
