@@ -5,7 +5,7 @@ var paper_data = [
         author:'Tse-Fu Huang,  Jia-Jen Liu,  Ze-Yu Lai,  Je-Wei Chang,  Ying-Rang Zhuang,  Zi-Cheng Jiang,  Chih-Li Chang,  Wei-Cheng Lin,  Yan-Heng Chen,  Yi-Hsiang Wu,  Yu-En Sun,  Ting-An Luo,  Yi-Kuan Chen,  Jui-Chen Yen,  Hung-Kai Hsu,  <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>,  Li-Yu Ting,  Chia-Yeh Lu,  Yu-Tung Lin,  Ling-Yu Hsu,  Tien-Lin Wu,  Shang-Da Yang,  An-Chung Su,  U-Ser Jeng, and  Ho-Hsiu Chou',
         journal: 'small',
         volume: '',
-        issue: '',
+        issue: 'Early Release',
         page: '',
         year: '2023',
         published: true,
