@@ -2,14 +2,14 @@ var paper_data = [
     {
         img: 'assets/img/journal/small-v19-46.jpg',
         title: 'Highly Efficient MAPbI3-based Quantum Dots Exhibiting Unusual Nonblinking Single Photon Emission at Room Temperature',
-        author:'',
+        author:'Yung-Tang Chuang, Tzu-Yu Lin, Guang-Hsun Tan, Pei-En Jan, Hao-Cheng Lin, Hung-Ming Chen, Kai-Yuan Hsiao, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Chi-Hsuan Lee, Chun-Wei Pao, Shang-Da Yang, Ming-Yen Lu, Hao-Wu Lin',
         journal: 'Small',
         volume: '',
         issue: '',
-        page: '',
-        year: 'Accepted',
-        published: false,
-        link: ''
+        page: '2308676',
+        year: '2023',
+        published: true,
+        link: 'https://doi.org/10.1002/smll.202308676'
     },
     {
         img: 'assets/img/journal/small-v19-45.jpg',
@@ -17,8 +17,8 @@ var paper_data = [
         author:'Tse-Fu Huang,  Jia-Jen Liu,  Ze-Yu Lai,  Je-Wei Chang,  Ying-Rang Zhuang,  Zi-Cheng Jiang,  Chih-Li Chang,  Wei-Cheng Lin,  Yan-Heng Chen,  Yi-Hsiang Wu,  Yu-En Sun,  Ting-An Luo,  Yi-Kuan Chen,  Jui-Chen Yen,  Hung-Kai Hsu,  <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>,  Li-Yu Ting,  Chia-Yeh Lu,  Yu-Tung Lin,  Ling-Yu Hsu,  Tien-Lin Wu,  Shang-Da Yang,  An-Chung Su,  U-Ser Jeng, and  Ho-Hsiu Chou',
         journal: 'Small',
         volume: '',
-        issue: 'Early Release',
-        page: '',
+        issue: '',
+        page: '2304743',
         year: '2023',
         published: true,
         link: 'https://doi.org/10.1002/smll.202304743'
