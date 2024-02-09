@@ -1,5 +1,17 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/chem-eur-j-v30-8.webp',
+        title: 'A New Series of Sandwich-Type 5,5′-Biterphenylenes: Synthetic Challenge, Structural Uniqueness and Photodynamics',
+        author:'Ming-Lun Pan, Chao-Hsien Hsu, Yan-Ding Lin, Wei-Sen Chen, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Shang-Da Yang, Mu-Jeng Cheng, Pi-Tai Chou and Yao-Ting Wu',
+        journal: 'Chemistry A European Journal',
+        volume: '',
+        issue: '',
+        page: 'e202303523',
+        year: '2024',
+        published: true,
+        link: 'https://doi.org/10.1002/chem.202303523'
+    },
+    {
         img: 'assets/img/journal/small-v19-46.jpg',
         title: 'Highly Efficient MAPbI3-based Quantum Dots Exhibiting Unusual Nonblinking Single Photon Emission at Room Temperature',
         author:'Yung-Tang Chuang, Tzu-Yu Lin, Guang-Hsun Tan, Pei-En Jan, Hao-Cheng Lin, Hung-Ming Chen, Kai-Yuan Hsiao, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Chi-Hsuan Lee, Chun-Wei Pao, Shang-Da Yang, Ming-Yen Lu, Hao-Wu Lin',
