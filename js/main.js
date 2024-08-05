@@ -13,7 +13,8 @@ window.addEventListener('DOMContentLoaded', event => {
             return {
                 papers: paper_data,
                 projects_konstanz: konstanz_project_data,
-                projects_nthu: nthu_project_data,
+                projects_nthu_postdoc: nthu_postdoc_project_data,
+                projects_nthu: nthu_professor_project_data,
                 awards: award_data,
                 education: education_data,
                 nonlinear_optics_skills: skill_nonlinear_optics_data,

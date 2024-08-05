@@ -1,4 +1,4 @@
-var nthu_project_data = [
+var nthu_postdoc_project_data = [
   {
     isEducating: true,
     isBuilding: false,

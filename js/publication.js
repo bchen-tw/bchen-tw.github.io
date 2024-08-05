@@ -1,5 +1,17 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/adv-sci-temp.webp',
+        title: 'Repairing Interfacial Defects in Self-Assembled Monolayersfor High-Eﬃciency Perovskite Solar Cells and OrganicPhotovoltaics through the SAM@Pseudo-Planar MonolayerStrategy',
+        author:'Chieh-Ming Hung, Chi-Chi Wu, Yu-Hsuan Yang, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Che-Chun Chu, Chun-Hao Cheng, Chun-Yun Yang, Yan-Ding Lin, Ching-Hsuan Cheng, Jiann-Yeu Chen, I-Chih Ni, Chih-I Wu, Shang-Da Yang, Hsieh-Chih Chenand Pi-Tai Chou',
+        journal: 'Advanced Science',
+        volume: '',
+        issue: 'Earlier view',
+        page: '',
+        year: '2024',
+        published: true,
+        link: 'https://doi.org/10.1002/advs.202404725'
+    },
+    {
         img: 'assets/img/journal/nat-commu.jpg',
         title: 'Overcoming small-bandgap charge recombination in visible and NIR-light-driven hydrogen evolution by engineering the polymer photocatalyst structure',
         author:'Mohamed Hammad Elsayed, Mohamed Abdellah, Ahmed Zaki Alhakemy, Islam M. A. Mekhemer, Ahmed Esmail A. Aboubakr, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Amr Sabbah, Kun-Han Lin, Wen-Sheng Chiu, Sheng-Jie Lin, Che-Yi Chu, Chih-Hsuan Lu, Shang-Da Yang, Mohamed Gamal Mohamed, Shiao-Wei Kuo, Chen-Hsiung Hung, Li-Chyong Chen, Kuei-Hsien Chen and Ho-Hsiu Chou',
