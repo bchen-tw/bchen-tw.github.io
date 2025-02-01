@@ -1,5 +1,16 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/jpcl-v16-4-2025.jpg',
+        title: 'Next-Generation Ultrafast Photoluminescence Spectroscopy: Integration of Transient Grating Optical Gate and Advanced Femtosecond Laser Technology',
+        author:'Chao-Yang Lin, Zi-Cheng Jiang, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Isabella Wagner, Loïc Lavenu, Yoann Zaouter, Lin-Song Cui, Chih-Hsuang Lu, Marc Hanna, Justin M. Hodgkiss, Shang-Da Yang, and Kai Chen',
+        journal: 'The Journal of Physical Chemistry Letters',
+        volume: '16',
+        issue: '4',
+        page: '1081-1087',
+        year: '2025',
+        published: true,
+        link: 'https://doi.org/10.1021/acs.jpclett.4c03373'
+    },{
         img: 'assets/img/journal/chem-engineer-j.jpg',
         title: 'Self-condensation for enhancing the hydrophilicity of covalent organic polymers and photocatalytic hydrogen generation with unprecedented apparent quantum yield up to 500 nm',
         author:'Islam M.A. Mekhemer, Ahmed M. Elewa, Mohamed M. Elsenety, Maha Mohamed Samy, Mohamed Gamal Mohamed, Ahmed Fouad Musa, Tse-Fu Huang ,Tzu-Chien Wei, Shiao-Wei Kuo, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Shang-Da Yang and Ho-Hsiu Chou',
