@@ -1,5 +1,17 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/angew-chem-v64-16.jpg',
+        title: 'Perovskite-Coupled NIR Organic Hybrid Solar Cells Achieving an 84.2% Fill Factor and a 25.2% Efficiency: A Comprehensive Mechanistic Exploration',
+        author:'Chieh-Ming Hung, Chia-Jen Chih, Kuo-Hsiu Huang, Yung-Jing Xue, Heng-Chi Chu, Chi-Chun Tseng, Chun-Hao Li, Jiann-Yeu Chen, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen*</u></span>, Shang-Da Yang*, Yen-Ju Cheng*, and Pi-Tai Chou*',
+        journal: 'Angewandte Chemie International Edition',
+        volume: '64',
+        issue: '16',
+        page: 'e202501375',
+        year: '2025',
+        published: true,
+        link: 'https://doi.org/10.1002/anie.202501375'
+    },
+    {
         img: 'assets/img/journal/jpcl-v16-4-2025.jpg',
         title: 'Next-Generation Ultrafast Photoluminescence Spectroscopy: Integration of Transient Grating Optical Gate and Advanced Femtosecond Laser Technology',
         author:'Chao-Yang Lin, Zi-Cheng Jiang, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Isabella Wagner, Loïc Lavenu, Yoann Zaouter, Lin-Song Cui, Chih-Hsuang Lu, Marc Hanna, Justin M. Hodgkiss, Shang-Da Yang, and Kai Chen',
@@ -10,6 +22,18 @@ var paper_data = [
         year: '2025',
         published: true,
         link: 'https://doi.org/10.1021/acs.jpclett.4c03373'
+    },
+    {
+        img: 'assets/img/journal/jacs-v147-3.jpg',
+        title: 'Optimally Miscible Polymer Bulk-Heterojunction-Particles for Nonsurfactant Photocatalytic Hydrogen Evolution',
+        author:'Wei-Cheng Lin, Yu-En Sun, Ying-Rang Zhuang, Tse-Fu Huang, Kuei-Jhong Lin, Mohamed M. Elsenety, Jui-Chen Yen, Hung-Kai Hsu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chen-Yu Chang, Je-Wei Chang, Hsin-Ni Huang, Bing-Heng Li, Siriporn Jungsuttiwong, Toton Haldar, Shin-Huei Wang, Wan-Chi Lin, Tien-Lin Wu, Chin-Wen Chen, Chi-Hua Yu, An-Chung Su, Kun-Han Lin*, U-Ser Jeng*, Shang-Da Yang*, and Ho-Hsiu Chou*',
+        journal: 'Journal of the American Chemical Society',
+        volume: '147',
+        issue: '13',
+        page: '2537-2548',
+        year: '2024',
+        published: true,
+        link: 'https://doi.org/10.1021/jacs.4c13856'
     },{
         img: 'assets/img/journal/chem-engineer-j.jpg',
         title: 'Self-condensation for enhancing the hydrophilicity of covalent organic polymers and photocatalytic hydrogen generation with unprecedented apparent quantum yield up to 500 nm',
