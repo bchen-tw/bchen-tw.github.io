@@ -1,5 +1,65 @@
 var paper_data = [
     {
+        img: 'assets/img/journal/adv-opt-mater-v13-31.jpg',
+        title: 'Endothermic Singlet Fission Process in Harvesting theHigh-Level Excitation Energy for Tetracene-BasedPhotodiode',
+        author:'Anas Mujahid, Chien-Chih Wu, Shi-Hong Luo, Chao-Hsien Hsu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen*</u></span>, Chih-Hsuan Lu, Wei-Zong Feng, Shang-Da Yang, Pi-Tai Chou, and Tzung-Fang Guo*',
+        journal: 'Advanced Optical Materials',
+        volume: '13',
+        issue: '31',
+        page: 'e01810',
+        year: '2025',
+        published: true,
+        link: 'https://doi.org/10.1002/adom.202501810'
+    },
+    {
+        img: 'assets/img/journal/jpcl-v16-41.jpg',
+        title: 'Ultrafast Transient Electroabsorption Illuminates Additive Effects for Enhancing Non-fullerene Photovoltaic Devices',
+        author:'Aditi Kumar, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen*</u></span>, Chao-Yang Lin, Nikita A. Shumilov, Nathaniel J. L. K. Davis, Yu-Chiang Chao, Li-Kang Chu, Chia-Feng Li, Yu-Ching Huang, Shang-Da Yang, Michael B. Price, Paul A. Hume*, Justin M. Hodgkiss*, and Kai Chen*',
+        journal: 'The Journal of Physical Chemistry Letters',
+        volume: '16',
+        issue: '41',
+        page: '10703−10711',
+        year: '2025',
+        published: true,
+        link: 'https://doi.org/10.1021/acs.jpclett.5c02643'
+    },
+    {
+        img: 'assets/img/journal/sci-adv-v11-i30.jpg',
+        title: 'Flexible, nonfused sulfone functionalized polymer withenhanced active site access for photocatalytic sacrificialhydrogen evolution',
+        author:'Tse-Fu Huang, Kuei-Jhong Lin, Ying-Rang Zhuang, Yu- En Sun, Wei-Cheng Lin, Chun-Hao Li, Chien-Cheng Lin, En-Chi Chang, Chih-Li Chang, Yung-Ching Liu, Ling-Yu Hsu, Bing-Heng Li, Wan-Ling Chang, Pimjai Pimbaotham, Cheng-Yun Bai, Wei-Hsiang Huang, Dung Chau Kim Hoang, Khanh Do Gia Huynh, Yi-Chan Huang, Chao-Yan Chung, Mohamed M. Elsenety, Chia-An Chang, Hsin-Ni Huang, Siriporn Jungsuttiwong, Chih-Wen Pao, Hsin- Lung Chen, Tien- Lin Wu, Chia-Chih Chang, Bo-Han Chen,Shang- Da Yang, Kun-Han Lin*, Ho-Hsiu Chou*',
+        journal: 'Science Advances',
+        volume: '11',
+        issue: '30',
+        page: 'eadx1629-23691',
+        year: '2025',
+        published: true,
+        link: 'https://doi.org/10.1126/sciadv.adx1629'
+    },
+    {
+        img: 'assets/img/journal/jacs-v147-27.jpg',
+        title: 'Interspersed Assembled Monolayers Enhance Hole Transport in High-Efficiency Organic and Perovskite Solar Cells',
+        author:'Chieh-Ming Hung,§ Jing-Han Shi,§ Hsiao-Chun Tsai, Chi-Ping Lin, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Shang-Da Yang, and Pi-Tai Chou*',
+        journal: 'Journal of the American Chemical Society',
+        volume: '147',
+        issue: '27',
+        page: '23683-23691',
+        year: '2025',
+        published: true,
+        link: 'https://doi.org/10.1021/jacs.5c05341'
+    },
+    {
+        img: 'assets/img/journal/small-v21-10.jpg',
+        title: 'Impact of Functional Fluorinated Porphyrins on theEﬃciency and Stability of Perovskite Solar Cells',
+        author:'Chi-Lun Mai, Chieh-Ming Hung, Zhen-Hao Huang, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Meng-Chuan Wang, Fang-Chi Ho, Hsiao-Chun Tsai, Zong-Han Liu, Shang-Da Yang, Pi-Tai Chou*,Hsieh-Chih Chen*, and Chen-Yu Yeh*',
+        journal: 'Small',
+        volume: '21',
+        issue: '10',
+        page: '2412530',
+        year: '2025',
+        published: true,
+        link: 'https://doi.org/10.1002%2Fsmll.202412530'
+    },
+    {
         img: 'assets/img/journal/angew-chem-v64-16.jpg',
         title: 'Perovskite-Coupled NIR Organic Hybrid Solar Cells Achieving an 84.2% Fill Factor and a 25.2% Efficiency: A Comprehensive Mechanistic Exploration',
         author:'Chieh-Ming Hung, Chia-Jen Chih, Kuo-Hsiu Huang, Yung-Jing Xue, Heng-Chi Chu, Chi-Chun Tseng, Chun-Hao Li, Jiann-Yeu Chen, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen*</u></span>, Shang-Da Yang*, Yen-Ju Cheng*, and Pi-Tai Chou*',

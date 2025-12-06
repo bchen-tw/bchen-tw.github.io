@@ -1,10 +1,14 @@
 var award_data = [
   {
+    title: 'Distinguished Alumni Award',
+    organizer: 'Shin-Kuang Junior High School',
+    year:'2025'
+  },
+  {
     title: 'Outstanding Alternative Servicemen of 2023',
     organizer: 'National Conscription Agency, Ministry of the Interior',
     year:'2023'
-  }
-  ,
+  },
   {
     title: 'Best Student Talk Award',
     organizer: 'The 10th International Conference on Ultrafast Optics',
