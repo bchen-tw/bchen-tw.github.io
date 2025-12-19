@@ -2,7 +2,7 @@ var paper_data = [
     {
         img: 'assets/img/journal/adv-opt-mater-v13-31.jpg',
         title: 'Endothermic Singlet Fission Process in Harvesting theHigh-Level Excitation Energy for Tetracene-BasedPhotodiode',
-        author:'Anas Mujahid, Chien-Chih Wu, Shi-Hong Luo, Chao-Hsien Hsu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen*</u></span>, Chih-Hsuan Lu, Wei-Zong Feng, Shang-Da Yang, Pi-Tai Chou, and Tzung-Fang Guo*',
+        author:'Anas Mujahid, Chien-Chih Wu, Shi-Hong Luo, Chao-Hsien Hsu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Chih-Hsuan Lu, Wei-Zong Feng, Shang-Da Yang, Pi-Tai Chou, and Tzung-Fang Guo*',
         journal: 'Advanced Optical Materials',
         volume: '13',
         issue: '31',
@@ -26,7 +26,7 @@ var paper_data = [
     {
         img: 'assets/img/journal/sci-adv-v11-i30.jpg',
         title: 'Flexible, nonfused sulfone functionalized polymer withenhanced active site access for photocatalytic sacrificialhydrogen evolution',
-        author:'Tse-Fu Huang, Kuei-Jhong Lin, Ying-Rang Zhuang, Yu- En Sun, Wei-Cheng Lin, Chun-Hao Li, Chien-Cheng Lin, En-Chi Chang, Chih-Li Chang, Yung-Ching Liu, Ling-Yu Hsu, Bing-Heng Li, Wan-Ling Chang, Pimjai Pimbaotham, Cheng-Yun Bai, Wei-Hsiang Huang, Dung Chau Kim Hoang, Khanh Do Gia Huynh, Yi-Chan Huang, Chao-Yan Chung, Mohamed M. Elsenety, Chia-An Chang, Hsin-Ni Huang, Siriporn Jungsuttiwong, Chih-Wen Pao, Hsin- Lung Chen, Tien- Lin Wu, Chia-Chih Chang, Bo-Han Chen,Shang- Da Yang, Kun-Han Lin*, Ho-Hsiu Chou*',
+        author:'Tse-Fu Huang, Kuei-Jhong Lin, Ying-Rang Zhuang, Yu- En Sun, Wei-Cheng Lin, Chun-Hao Li, Chien-Cheng Lin, En-Chi Chang, Chih-Li Chang, Yung-Ching Liu, Ling-Yu Hsu, Bing-Heng Li, Wan-Ling Chang, Pimjai Pimbaotham, Cheng-Yun Bai, Wei-Hsiang Huang, Dung Chau Kim Hoang, Khanh Do Gia Huynh, Yi-Chan Huang, Chao-Yan Chung, Mohamed M. Elsenety, Chia-An Chang, Hsin-Ni Huang, Siriporn Jungsuttiwong, Chih-Wen Pao, Hsin- Lung Chen, Tien- Lin Wu, Chia-Chih Chang, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Shang- Da Yang, Kun-Han Lin* and Ho-Hsiu Chou*',
         journal: 'Science Advances',
         volume: '11',
         issue: '30',
@@ -97,7 +97,7 @@ var paper_data = [
     },{
         img: 'assets/img/journal/chem-engineer-j.jpg',
         title: 'Self-condensation for enhancing the hydrophilicity of covalent organic polymers and photocatalytic hydrogen generation with unprecedented apparent quantum yield up to 500 nm',
-        author:'Islam M.A. Mekhemer, Ahmed M. Elewa, Mohamed M. Elsenety, Maha Mohamed Samy, Mohamed Gamal Mohamed, Ahmed Fouad Musa, Tse-Fu Huang ,Tzu-Chien Wei, Shiao-Wei Kuo, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Shang-Da Yang and Ho-Hsiu Chou',
+        author:'Islam M.A. Mekhemer, Ahmed M. Elewa, Mohamed M. Elsenety, Maha Mohamed Samy, Mohamed Gamal Mohamed, Ahmed Fouad Musa, Tse-Fu Huang ,Tzu-Chien Wei, Shiao-Wei Kuo, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Shang-Da Yang and Ho-Hsiu Chou*',
         journal: 'Chemical Engineering Journal',
         volume: '497',
         issue: '',
@@ -121,7 +121,7 @@ var paper_data = [
     {
         img: 'assets/img/journal/angew-chem-v63-32.jpg',
         title: 'Symmetry-breaking of Dibenzo[b,d]thiophene Sulfone Enhancing Polaron Generation for Boosted Photocatalytic Hydrogen Evolution',
-        author:'Wei-Cheng Lin, Yi-Hsiang Wu, Yu-En Sun, Dr. Mohamed M. Elsenety, Wan-Chi Lin, Jui-Chen Yen, Hung-Kai Hsu, <span style="color: rgb(31, 85, 143);"><u>Dr. Bo-Han Chen</u></span>, Hung-Yi Huang, Chia-An Chang, Tse-Fu Huang, Ying-Rang Zhuang, Yuan-Ting Tseng, Prof. Kun-Han Lin, Prof. Shang-Da Yang, Prof. Chi-Hua Yu and Prof. Ho-Hsiu Chou',
+        author:'Wei-Cheng Lin, Yi-Hsiang Wu, Yu-En Sun, Dr. Mohamed M. Elsenety, Wan-Chi Lin, Jui-Chen Yen, Hung-Kai Hsu, <span style="color: rgb(31, 85, 143);"><u>Bo-Han Chen</u></span>, Hung-Yi Huang, Chia-An Chang, Tse-Fu Huang, Ying-Rang Zhuang, Yuan-Ting Tseng, Prof. Kun-Han Lin, Prof. Shang-Da Yang, Prof. Chi-Hua Yu and Prof. Ho-Hsiu Chou',
         journal: 'Angewandte Chemie International Edition',
         volume: '63',
         issue: '32',
